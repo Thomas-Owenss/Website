@@ -1,0 +1,35 @@
+<html> 
+    <body>
+<head>
+    <link rel="stylesheet" 
+            href="css.css" 
+            type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+</head>
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#x2190;</a>
+  <a href="https://www.instagram.com/thomas.owensss/?hl=en">Instagram</a>
+  <a href="https://twitch.tv/thomas_owensss">Twitch</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ Socials</button>  
+  <h2>Header</h2>
+  <p>Paragraph</p>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   
+</body>
+</html> 
